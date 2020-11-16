@@ -1,11 +1,11 @@
 echo "update"
 apt-get update -y > log
 
-echo "install curl"
-apt-get install curl -y > log
-
 echo "install apt-utils"
 apt-get install apt-utils -y > log
+
+echo "install curl"
+apt-get install curl -y > log
 
 echo "install sudo"
 apt-get install sudo -y > log
@@ -34,5 +34,3 @@ npm cache clean -f > log
 npm install -g n > log
 n latest > log
 node -v
-
-
