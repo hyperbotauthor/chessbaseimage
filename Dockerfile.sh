@@ -6,12 +6,12 @@ apt-get install curl -y > log
 
 echo "install sudo"
 apt-get install sudo -y > log
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - > log
 
 echo "install git"
 sudo apt-get install git -y > log
 
 echo "load tablebases"
-sudo git clone https://github.com/hyperbotauthor/syzygy /syzygy
+sudo git clone https://github.com/hyperbotauthor/syzygy /syzygy > log
 rm -rf /syzygy/.git
 ls /syzygy
