@@ -1,5 +1,5 @@
 echo "update"
-sudo apt-get update -y > log
+apt-get update -y > log
 
 echo "install curl"
 apt-get install curl -y > log
