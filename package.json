@@ -1,0 +1,28 @@
+{
+  "name": "@hyperbotauthor/chessbaseimage",
+  "version": "1.0.0",
+  "description": "chessbaseimage",
+  "main": "packages/chessbaseimage/lib/chessbaseimage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "chessbaseimage": "packages/chessbaseimage/lib/chessbaseimage.js"
+  },
+  "keywords": [
+    "chessbaseimage"
+  ],
+  "author": "hyperbotauthor",
+  "license": "MIT",
+  "homepage": "https://github.com/hyperbotauthor/chessbaseimage",
+  "bugs": {
+    "url": "https://github.com/hyperbotauthor/chessbaseimage/issues",
+    "email": "hyperchessbotauthor@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyperbotauthor/chessbaseimage.git"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

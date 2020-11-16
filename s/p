@@ -1,0 +1,4 @@
+
+git config credential.helper 'cache --timeout=86400'
+
+git add . -A ; git commit -m "$1" ; git push --force origin master && git push --force gitlab master
